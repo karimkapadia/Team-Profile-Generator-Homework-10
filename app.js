@@ -80,7 +80,7 @@ async function main()
 
     }
     fs.writeFileSync("main.html", render(userList), "utf-8");
-  
+  console.log(render(userList));
     console.log(userList);
 
 }
